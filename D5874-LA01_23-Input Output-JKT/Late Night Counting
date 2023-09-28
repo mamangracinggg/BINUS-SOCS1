@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define ll long long int
+int main(){
+	ll n, m;
+	scanf("%lld %lld", &n, &m);
+	int i = n;
+	while (i < n + m){
+		printf("%d\n", i);
+		i++;
+	}
+}
