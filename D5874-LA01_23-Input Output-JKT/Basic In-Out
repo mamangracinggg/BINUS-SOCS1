@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+	char s[105]; /// s is one word string containing only lowercase and uppercase alphabet character
+	int a;
+	scanf("%s\n", &s);
+	scanf("%d", &a);
+	printf("%s\n%d\n", s, a );
+	return 0;
+}
